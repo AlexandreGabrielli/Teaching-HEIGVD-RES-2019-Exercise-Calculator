@@ -35,10 +35,15 @@
 * What is the syntax of the messages? How we generate and parse them?
 
    message ::= <op> <var1> <var2>
+  
   <op>      ::= **add** | **div** | **sub** | **mult** 
+  
   <var2>    ::= <number>
+  
   <var1>    ::= <number>
+  
   <number>  ::= [0 | 1 | 2 | 3 |4 | 5 | 6 | 7 | 8 | 9]
+  
   
 * Who closes the connection and when?
 
