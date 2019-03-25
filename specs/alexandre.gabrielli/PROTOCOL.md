@@ -1,4 +1,4 @@
-# Spécifications
+# Spécifications
 
 * What transport protocol do we use?
 
@@ -29,8 +29,9 @@
 
 * What happens when a message is received from the other party?
 
-
-
+ if you're Server: parse the Input with space and return the result of command ask (see message)
+ 
+ If you're Client : print the output command
 
 * What is the syntax of the messages? How we generate and parse them?
 ```
